@@ -1,9 +1,19 @@
 ---
+layout: home
+title: "Using LaTeX in Jekyll"
+date: 2024-11-30
 ---
 
-Welcome to My Home Page
+Welcome to My Home Page 
 
-{% assign date = '2020-04-13T10:20:00Z' %}
+Here is some inline math: 
 
-- Original date - {{ date }}
-- With timeago filter - {{ date | timeago }}
+
+And here’s another block equation using double-dollar signs:
+
+$$
+\frac{1}{n} \sum_{i=1}^n x_i = \bar{x}
+$$
+
+Here's Pi 
+$$\pi$$
