@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ColeHerber.github.io/sitemap.xml
+Sitemap: https://coleherber.com/sitemap.xml
