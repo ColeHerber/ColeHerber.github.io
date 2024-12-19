@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: email∶<a href='cole.r.herber@gmail.com'>cole.r.herber@gmail.com</a>
+display_categories: [in-progress, finished]
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: true # crops the image to make it circular
   more_info: >
     
 
@@ -15,23 +15,20 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don’t care what humans think is impossible.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let’s shake it up a little. Barry! Breakfast is ready! Coming! Hang on a second. Hello? Barry? Adam? Can you believe this is happening? Yes, I know! I’m excited!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Wow! College! We’re finally graduating. Three days of grade school, three days of high school. Those were awkward. Three days of college, I’m glad I took a day off in the middle and just hiked around the hive. You did come back different.
 
 <h1>
 <br>
 <br>
 
 
-Projects
+<a href="/projects/">A random sampling of projects
 
 <h1>
-
-<!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -40,7 +37,8 @@ Projects
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign shuffled_projects = categorized_projects | sample: 3 %}
+  {% assign sorted_projects = shuffled_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -63,7 +61,8 @@ Projects
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign shuffled_projects = site.projects | sample: 3 %}
+{% assign sorted_projects = shuffled_projects | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 

@@ -3,9 +3,7 @@
         "name": "Cole Herber",
         "label": "Robotics Engineer",
         "email": "cole.r.herber@gmail.com",
-        "phone": "(971) 274-9562",
-        "url": "https://linkedin.com/in/cole-herber",
-        "summary": "Aspiring mechanical engineer focusing on robotics, seeking an internship to apply advanced design and robotics skills in a practical environment.",
+        "social": "linkedin.com/in/cole-herber",
         "location": {
             "city": "Pittsburgh",
             "region": "Pennsylvania",

@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: I've been trying to make molecules come alive. Here are all my best attempts
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [in-progress, finished]
 horizontal: false
 ---
 
