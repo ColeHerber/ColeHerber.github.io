@@ -48,7 +48,6 @@ Integrating these much larger motors into cad was a bit more difficult, they jus
     </div>
 </div>
 
-
 ### **V1 Assembled**
 
 V1 rolly polly Assembled! Red timing belt pulleys from tpu. Everything else from leftover polycarbonate and pla. Seems great, the use of cheap chinese bearings and the extremly low powered motors(less than 2.5 watts) leaves the object unable to move. That was presumed to happen however, and better to check the fit of it before investing in some more powerful motors. Doing some small tweaks and adjusting cad in the next version.
