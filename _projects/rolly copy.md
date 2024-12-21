@@ -4,7 +4,7 @@ title: Rolly Polly
 description: Transforming robot, wrap a line around enough circles and you approximate another circle!
 img: assets/img/rolly/v1_closed.jpeg
 importance: 1
-category: in-progress
+category: Done
 related_publications: false
 toc:
   sidebar: left
