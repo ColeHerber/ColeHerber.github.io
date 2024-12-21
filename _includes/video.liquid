@@ -1,34 +1,13 @@
 {% assign extension = include.path | split: '.' | last %}
 
-<figure>
+<figure style="width: 100%; max-width: 100%;">
   {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
     <video
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="auto"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        height="{{ include.max-height }}"
-      {% endif %}
+      style="width: 100%; height: auto; max-width: 100%;"
       {% if include.title %}
         title="{{ include.title }}"
       {% endif %}
@@ -50,46 +29,24 @@
       {% if include.poster %}
         poster="{{ include.poster }}"
       {% endif %}
-    />
-
+    ></video>
   {% else %}
     <iframe
       src="{{ include.path }}"
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
+      style="width: 100%; height: auto; max-width: 100%; aspect-ratio: 16 / 9;"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="auto"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        height="{{ include.max-height }}"
+      {% if include.title %}
+        title="{{ include.title }}"
       {% endif %}
       {% if include.alt %}
         alt="{{ include.alt }}"
       {% endif %}
-      {% if include.title %}
-        title="{{ include.title }}"
-      {% endif %}
-    />
+    ></iframe>
   {% endif %}
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
