@@ -10,9 +10,9 @@ toc:
   sidebar: left
 ---
 
-### **Wheel hubs**
-
 ### **Casting**
+
+https://youtu.be/8k6vTsvE4B8 USAR climbing stairs
 
 #### **Silicone Mold**
 
@@ -20,8 +20,14 @@ toc:
 
 https://youtube.com/shorts/HmYtrVI0ScE concentricity
 
+https://youtube.com/shorts/IKxye1CSXMM?feature=share lathing wheel mold to fix
+
 ### **Dealing with cure times**
 
 Baking go here
+
+### **Wheel hubs**
+
+### **Just print the wheels out of TPU**
 
 ### **Random playing around**
