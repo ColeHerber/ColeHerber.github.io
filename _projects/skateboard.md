@@ -13,7 +13,7 @@ toc:
 
 ### **Board**
 
-Ok, biggest part, we need something to stand on.
+Ok, biggest part, we need something to stand on. How are we going to do it
 
 Casey nistat here.
 https://youtu.be/_ILJnuY9Zz4 board bend
