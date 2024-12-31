@@ -3,7 +3,7 @@ layout: page
 title: Electric Skateboard
 description: Damn it takes a while to get to campus....
   I wonder if I could fix that
-img: assets/img/skateboard/Assembl1.jpeg
+img: assets/img/skateboard/thumbnail.jpeg
 importance: 1
 category: in-progress
 related_publications: false
@@ -13,10 +13,33 @@ toc:
 
 ### **Board**
 
-Ok, biggest part, we need something to stand on. How are we going to do it
+Ok, biggest part, we need something to stand on. How are we going to do it.
 
-Casey nistat here.
-https://youtu.be/_ILJnuY9Zz4 board bend
+Most boards are made of wood, some are prebent to get a concave down shape. There are also some made of Carbon fiber. However, I quite like aluminum. Using Aircraft grade 7075, it should have similar properties to the bamboo type wood that was used in original boosted boards.
+
+Started out with the full cad, threw the aluminum onto a cnc router. A little machining later and out popped this guy.
+
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skateboard/cad.jpeg" title="cad" class="img-fluid rounded z-depth-1" %}
+    </div>  
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skateboard/board.jpeg" title="board" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Everything looks great, I threw on a layer of black, got a bit lost doing the forks, and then had it fully assembled!
+
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://youtube.com/embed/_ILJnuY9Zz4" class="img-fluid rounded z-depth-1" %}
+    </div>  
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skateboard/boosted.png" title="board" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Perfect, looks like it matches pretty well! It appears like a little bit more than the originals, likely this is because the aluminum starts out as a flat sheet, instead of the pre-bend that you can get with wood. It'll likely stiffen up more as the final electronics and grip tape are added.
 
 ### **Trucks**
 
@@ -53,10 +76,10 @@ And we're done, now for the side holes. I was debating using 3d printed soft jaw
 
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtube.com/embed/hqW5wlsznU" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://youtube.com/embed/TAridncqcss" class="img-fluid rounded z-depth-1" %}
     </div>  
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtube.com/embed/TAridncqcss" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://youtube.com/embed/-hqW5wlsznU" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -134,5 +157,18 @@ Onto motor mounts and the board now! I ran out of the non-reflective black I did
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/skateboard/motorMount2.jpeg" title="double_adaptor" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### **Electronics**
+
+The very last thing, motors and motor controllers seem great, but the battery system is the final part. Working with 21700 samsung cells, with a 12s2p configuration. Current wiring and battery pitures are below.
+
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skateboard/bat_cad.png" title="bat_cad" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/skateboard/wiring.jpeg" title="wiring" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
