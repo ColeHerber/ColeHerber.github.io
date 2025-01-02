@@ -3,7 +3,7 @@ layout: page
 title: Electric Skateboard
 description: Damn it takes a while to get to campus....
   I wonder if I could fix that
-img: assets/img/skateboard/thumbnail.jpeg
+img: assets/img/skateboard/omp.jpeg
 importance: 1
 category: in-progress
 related_publications: false
@@ -63,7 +63,7 @@ I then cutout the pieces out, and removed the tabs as much I as felt I could com
 
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/skateboard/Op2Start.jpeg" title="start" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/skateboard/Op2Ew.jpeg" title="start" class="img-fluid rounded z-depth-1" %}
     </div>  
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/skateboard/op2mid.jpeg" title="mid" class="img-fluid rounded z-depth-1" %}

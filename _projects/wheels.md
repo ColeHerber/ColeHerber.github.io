@@ -4,7 +4,7 @@ title: Wheels
 description: How hard is it to make your own wheels? Hard.
 img: assets/img/wheels/First2.jpeg
 importance: 1
-category: finished
+category: ---
 related_publications: false
 toc:
   sidebar: left

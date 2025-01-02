@@ -15,9 +15,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-As a dual major in Mechanical Engineering and Robotics at Carnegie Mellon University, I bring 8+ years of hands-on experience in mechanical design, electrical systems, programming, and manufacturing. My expertise spans CAD modeling, robotic systems, numerical analysis, and mentoring future engineers.
+As a dual major in Mechanical Engineering and Robotics at Carnegie Mellon University, I bring 7+ years of hands-on experience in mechanical design, electrical systems, programming, and manufacturing. My expertise spans CAD modeling, robotic systems, numerical analysis, and mentoring future engineers.
 
-Currently, I serve as the Mechanical Team Lead for CMU's Robosub team and TA for Howie Choset's renowned Introduction to Robotics course. My passion lies in pioneering technologies like biofuel ship cleaning, 3D printing, and advanced manufacturing, with prior impactful work in agricultural robotics.
+Currently, I serve as the Mechanical Team Lead for CMU's Robosub team and a TA for Howie Choset's Introduction to Robotics course. My passion lies in pioneering technologies like transformable robots, 3D printing, and modern controls, with prior work in agricultural robotics.
 
 <br>
 <h1>
