@@ -15,15 +15,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don’t care what humans think is impossible.
+As a dual major in Mechanical Engineering and Robotics at Carnegie Mellon University, I bring 7+ years of hands-on experience in mechanical design, electrical systems, programming, and manufacturing. My expertise spans CAD modeling, robotic systems, numerical analysis, and mentoring future engineers.
 
-Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let’s shake it up a little. Barry! Breakfast is ready! Coming! Hang on a second. Hello? Barry? Adam? Can you believe this is happening? Yes, I know! I’m excited!
+Currently, I serve as the Mechanical Team Lead for CMU's Robosub team and a TA for Howie Choset's Introduction to Robotics course. My passion lies in pioneering technologies like transformable robots, 3D printing, and modern controls, with prior work in agricultural robotics.
 
-Wow! College! We’re finally graduating. Three days of grade school, three days of high school. Those were awkward. Three days of college, I’m glad I took a day off in the middle and just hiked around the hive. You did come back different.
-
+<br>
 <h1>
-<br>
-<br>
 
 <a href="/projects/">A random sampling of projects
 
