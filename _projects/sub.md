@@ -95,9 +95,9 @@ I've designed in upgrade paths with external electronics, plenty penetrator spot
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sub/Osprey.PNG" title="Osprey" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets/img/sub/Osprey.png" title="Osprey" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sub/Osprey_top.PNG" title="Osprey" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid loading="eager" path="assets/img/sub/Osprey_top.png" title="Osprey top" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
