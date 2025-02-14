@@ -110,7 +110,7 @@ Right now it goes ~35 mph top speed. That might be a bit "fast", but we'll have 
 
 ### **Wheels**
 
-You should check out <a href="../wheels">wheels project</a> for more info.
+You should check out <a href="https://coleherber.comp/projects/wheels">wheels project</a> for more info.
 
 Final wheels are 3d printed tpu with a v groove pattern. Hubs are made of Polycarbonate with chopped carbon fiber. They look great!
 
